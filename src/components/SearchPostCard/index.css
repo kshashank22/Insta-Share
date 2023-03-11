@@ -1,0 +1,232 @@
+.feeds-list {
+  background: #ffffff;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .feeds-list {
+    width: 1040px;
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px 4px 0px 0px;
+    margin: 10px;
+  }
+}
+
+.profile-pic-container {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.profile-pic {
+  width: 38px;
+  height: 38px;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-pic {
+    width: 58px;
+    height: 58px;
+    border-radius: 30px;
+    border: 1.03px solid;
+    border-width: linear-gradient(
+      to right,
+      31.35deg,
+      #e20337 73.03%,
+      #c60188 40.88%
+    );
+    padding: 3px;
+    margin-right: 5px;
+  }
+}
+
+.profile-pic-username {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #262626;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-pic-username {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+  }
+}
+
+.feeds-post-image {
+  height: 360px;
+  width: 375px;
+}
+
+@media screen and (min-width: 768px) {
+  .feeds-post-image {
+    width: 1040px;
+    height: 614px;
+  }
+}
+
+.like-button {
+  margin-top: 20px;
+  border-width: 0px;
+  background-color: transparent;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.like-share-container {
+  padding-left: 20px;
+}
+
+.likes-count {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 5px;
+  letter-spacing: -0.07px;
+  color: #262626;
+}
+
+@media screen and (min-width: 768px) {
+  .likes-count {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+  }
+}
+
+.captions {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.07px;
+  color: #262626;
+}
+
+@media screen and (min-width: 768px) {
+  .captions {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+  }
+}
+
+.comments-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.comments {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .comments {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.comment-name {
+  padding-right: 3px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  flex-wrap: wrap;
+  color: #262626;
+}
+
+@media screen and (min-width: 768px) {
+  .comment-name {
+    padding-right: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+  }
+}
+
+.comment {
+  padding-right: 3px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 12px;
+  flex-wrap: wrap;
+  color: #262626;
+}
+
+@media screen and (min-width: 768px) {
+  .comment {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+  }
+}
+
+.created {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 5px;
+  letter-spacing: 0.05px;
+  color: #989898;
+}
+
+@media screen and (min-width: 768px) {
+  .created {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #989898;
+  }
+}
+
+.user-profile-link {
+  text-decoration: none;
+}

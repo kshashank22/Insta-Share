@@ -1,0 +1,378 @@
+.my-profile-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fafafa;
+}
+
+@media screen and (min-width: 768px) {
+  .my-profile-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 1040px;
+  }
+}
+
+.my-profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .my-profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.my-profile {
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .my-profile {
+    padding-left: 60px;
+  }
+}
+
+.my-profile-followers-container {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .my-profile-followers-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.my-profile-pic {
+  width: 96px;
+  height: 96px;
+  border-radius: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .my-profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+  }
+}
+
+.user-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #262626;
+}
+
+@media screen and (min-width: 768px) {
+  .user-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    color: #262626;
+  }
+}
+
+.cards {
+  margin-right: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .cards {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.counts {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #262626;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .counts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #262626;
+    margin-right: 5px;
+  }
+}
+
+.user-id {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #262626;
+}
+
+@media screen and (min-width: 768px) {
+  .user-id {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #262626;
+  }
+}
+
+.user-bio {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #262626;
+}
+
+@media screen and (min-width: 768px) {
+  .user-bio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #262626;
+  }
+}
+
+.my-profile-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.stories-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+}
+
+.stories-image {
+  height: 66px;
+  width: 66px;
+  border-radius: 60px;
+  border: 2px solid #c7c7cc;
+  padding: 5px;
+  margin-right: 40px;
+}
+
+.stories-items {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .stories-image {
+    height: 80px;
+    width: 80px;
+    border-radius: 60px;
+    border: 2px solid #c7c7cc;
+    padding: 5px;
+    margin-right: 40px;
+  }
+}
+
+.line {
+  border: 0.5px solid #c6c6c8;
+}
+
+.posts-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .posts-list {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.posts-items {
+  padding-top: 10px;
+  padding-right: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .posts-items {
+    padding-top: 20px;
+    padding-right: 5px;
+  }
+}
+
+.posts-image {
+  width: 118px;
+  height: 118px;
+}
+
+@media screen and (min-width: 768px) {
+  .posts-image {
+    width: 330px;
+    height: 330px;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #262626;
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #262626;
+    padding-left: 10px;
+  }
+}
+
+.my-posts {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.no-posts-yet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-posts-logo {
+  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-posts-logo {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .no-posts-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 48px;
+    color: #262626;
+  }
+}
+
+.no-posts-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #262626;
+}
+
+.no-posts-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.failure-view-image {
+  height: 126.99996948242188px;
+  width: 259.99932861328125px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-image {
+    height: 273.9997253417969px;
+    width: 560.0001831054688px;
+  }
+}
+
+.failure-msg {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #989898;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-msg {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #262626;
+  }
+}
+
+.try-button {
+  width: 102px;
+  height: 32px;
+  background: #4094ef;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: '#Roboto';
+  cursor: pointer;
+  border-width: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .try-button {
+    width: 127px;
+    height: 48px;
+    background: #4094ef;
+    border-radius: 12px;
+    border-width: 0px;
+    color: #ffffff;
+    font-family: '#Roboto';
+    cursor: pointer;
+  }
+}
